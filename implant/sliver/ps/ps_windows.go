@@ -10,7 +10,7 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/bishopfox/sliver/implant/sliver/syscalls"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/syscalls"
 	"golang.org/x/sys/windows"
 )
 

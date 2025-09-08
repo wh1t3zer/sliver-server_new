@@ -1,6 +1,6 @@
 # cloud.google.com/go/compute/metadata v0.2.3
 ## explicit; go 1.19
-# filippo.io/age v1.2.1
+# filippo.io/age v1.1.1
 ## explicit; go 1.19
 filippo.io/age
 filippo.io/age/internal/bech32
@@ -203,55 +203,8 @@ github.com/aws/smithy-go/waiter
 # github.com/bits-and-blooms/bitset v1.13.0
 ## explicit; go 1.16
 github.com/bits-and-blooms/bitset
-# github.com/carapace-sh/carapace v1.7.1
-## explicit; go 1.16
-github.com/carapace-sh/carapace
-github.com/carapace-sh/carapace/internal/cache
-github.com/carapace-sh/carapace/internal/common
-github.com/carapace-sh/carapace/internal/config
-github.com/carapace-sh/carapace/internal/env
-github.com/carapace-sh/carapace/internal/export
-github.com/carapace-sh/carapace/internal/log
-github.com/carapace-sh/carapace/internal/man
-github.com/carapace-sh/carapace/internal/pflagfork
-github.com/carapace-sh/carapace/internal/shell
-github.com/carapace-sh/carapace/internal/shell/bash
-github.com/carapace-sh/carapace/internal/shell/bash_ble
-github.com/carapace-sh/carapace/internal/shell/cmd_clink
-github.com/carapace-sh/carapace/internal/shell/elvish
-github.com/carapace-sh/carapace/internal/shell/export
-github.com/carapace-sh/carapace/internal/shell/fish
-github.com/carapace-sh/carapace/internal/shell/ion
-github.com/carapace-sh/carapace/internal/shell/nushell
-github.com/carapace-sh/carapace/internal/shell/oil
-github.com/carapace-sh/carapace/internal/shell/powershell
-github.com/carapace-sh/carapace/internal/shell/tcsh
-github.com/carapace-sh/carapace/internal/shell/xonsh
-github.com/carapace-sh/carapace/internal/shell/zsh
-github.com/carapace-sh/carapace/internal/spec
-github.com/carapace-sh/carapace/pkg/cache/key
-github.com/carapace-sh/carapace/pkg/execlog
-github.com/carapace-sh/carapace/pkg/match
-github.com/carapace-sh/carapace/pkg/ps
-github.com/carapace-sh/carapace/pkg/style
-github.com/carapace-sh/carapace/pkg/traverse
-github.com/carapace-sh/carapace/pkg/uid
-github.com/carapace-sh/carapace/pkg/util
-github.com/carapace-sh/carapace/pkg/x
-github.com/carapace-sh/carapace/pkg/xdg
-github.com/carapace-sh/carapace/third_party/github.com/acarl005/stripansi
-github.com/carapace-sh/carapace/third_party/github.com/drone/envsubst
-github.com/carapace-sh/carapace/third_party/github.com/drone/envsubst/parse
-github.com/carapace-sh/carapace/third_party/github.com/drone/envsubst/path
-github.com/carapace-sh/carapace/third_party/github.com/elves/elvish/pkg/cli/lscolors
-github.com/carapace-sh/carapace/third_party/github.com/elves/elvish/pkg/ui
-github.com/carapace-sh/carapace/third_party/github.com/mitchellh/go-ps
-github.com/carapace-sh/carapace/third_party/golang.org/x/sys/execabs
-# github.com/carapace-sh/carapace-shlex v1.0.1
-## explicit; go 1.15
-github.com/carapace-sh/carapace-shlex
-# github.com/cheggaaa/pb/v3 v3.1.7
-## explicit; go 1.18
+# github.com/cheggaaa/pb/v3 v3.1.5
+## explicit; go 1.17
 github.com/cheggaaa/pb/v3
 github.com/cheggaaa/pb/v3/termutil
 # github.com/chromedp/cdproto v0.0.0-20240426225625-909263490071
@@ -342,7 +295,7 @@ github.com/dlclark/regexp2/syntax
 # github.com/dustin/go-humanize v1.0.1
 ## explicit; go 1.16
 github.com/dustin/go-humanize
-# github.com/fatih/color v1.18.0
+# github.com/fatih/color v1.17.0
 ## explicit; go 1.17
 github.com/fatih/color
 # github.com/fxamacker/cbor/v2 v2.5.0
@@ -371,8 +324,8 @@ github.com/go-json-experiment/json/jsontext
 ## explicit; go 1.12
 github.com/go-ole/go-ole
 github.com/go-ole/go-ole/oleutil
-# github.com/go-sql-driver/mysql v1.8.1
-## explicit; go 1.18
+# github.com/go-sql-driver/mysql v1.7.0
+## explicit; go 1.13
 github.com/go-sql-driver/mysql
 # github.com/gobwas/httphead v0.1.0
 ## explicit; go 1.15
@@ -551,13 +504,13 @@ github.com/mailru/easyjson
 github.com/mailru/easyjson/buffer
 github.com/mailru/easyjson/jlexer
 github.com/mailru/easyjson/jwriter
-# github.com/mattn/go-colorable v0.1.14
-## explicit; go 1.18
+# github.com/mattn/go-colorable v0.1.13
+## explicit; go 1.15
 github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.20
 ## explicit; go 1.15
 github.com/mattn/go-isatty
-# github.com/mattn/go-runewidth v0.0.16
+# github.com/mattn/go-runewidth v0.0.15
 ## explicit; go 1.9
 github.com/mattn/go-runewidth
 # github.com/mattn/go-sqlite3 v1.14.22
@@ -618,16 +571,12 @@ github.com/pierrec/lz4/v4/internal/xxh32
 # github.com/pmezard/go-difflib v1.0.0
 ## explicit
 github.com/pmezard/go-difflib/difflib
-# github.com/reeflective/console v0.1.25
-## explicit; go 1.23.6
+# github.com/reeflective/console v0.1.15
+## explicit; go 1.21
 github.com/reeflective/console
 github.com/reeflective/console/commands/readline
-github.com/reeflective/console/internal/completion
-github.com/reeflective/console/internal/line
-github.com/reeflective/console/internal/strutil
-github.com/reeflective/console/internal/ui
-# github.com/reeflective/readline v1.1.3
-## explicit; go 1.23.6
+# github.com/reeflective/readline v1.0.14
+## explicit; go 1.21
 github.com/reeflective/readline
 github.com/reeflective/readline/inputrc
 github.com/reeflective/readline/internal/color
@@ -644,7 +593,7 @@ github.com/reeflective/readline/internal/ui
 # github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec
 ## explicit; go 1.12
 github.com/remyoudompheng/bigfft
-# github.com/rivo/uniseg v0.4.7
+# github.com/rivo/uniseg v0.4.4
 ## explicit; go 1.18
 github.com/rivo/uniseg
 # github.com/rsteube/carapace v0.46.3-0.20231214181515-27e49f3c3b69
@@ -700,7 +649,7 @@ github.com/sirupsen/logrus
 # github.com/spf13/cobra v1.8.1
 ## explicit; go 1.15
 github.com/spf13/cobra
-# github.com/spf13/pflag v1.0.10
+# github.com/spf13/pflag v1.0.5
 ## explicit; go 1.12
 github.com/spf13/pflag
 # github.com/stretchr/testify v1.9.0
@@ -833,7 +782,7 @@ go4.org/mem
 # go4.org/netipx v0.0.0-20231129151722-fdeea329fbba
 ## explicit; go 1.18
 go4.org/netipx
-# golang.org/x/crypto v0.33.0
+# golang.org/x/crypto v0.32.0
 ## explicit; go 1.20
 golang.org/x/crypto/acme
 golang.org/x/crypto/acme/autocert
@@ -864,18 +813,18 @@ golang.org/x/crypto/scrypt
 golang.org/x/crypto/ssh
 golang.org/x/crypto/ssh/agent
 golang.org/x/crypto/ssh/internal/bcrypt_pbkdf
-# golang.org/x/exp v0.0.0-20250210185358-939b2ce775ac
-## explicit; go 1.22.0
+# golang.org/x/exp v0.0.0-20240416160154-fe59bbe5cc7f
+## explicit; go 1.20
 golang.org/x/exp/constraints
 golang.org/x/exp/maps
 golang.org/x/exp/slices
 golang.org/x/exp/slog
 golang.org/x/exp/slog/internal
 golang.org/x/exp/slog/internal/buffer
-# golang.org/x/mod v0.23.0
-## explicit; go 1.22.0
+# golang.org/x/mod v0.17.0
+## explicit; go 1.18
 golang.org/x/mod/semver
-# golang.org/x/net v0.35.0
+# golang.org/x/net v0.33.0
 ## explicit; go 1.18
 golang.org/x/net/bpf
 golang.org/x/net/dns/dnsmessage
@@ -886,7 +835,6 @@ golang.org/x/net/http2/h2c
 golang.org/x/net/http2/hpack
 golang.org/x/net/icmp
 golang.org/x/net/idna
-golang.org/x/net/internal/httpcommon
 golang.org/x/net/internal/iana
 golang.org/x/net/internal/socket
 golang.org/x/net/internal/socks
@@ -896,12 +844,12 @@ golang.org/x/net/ipv6
 golang.org/x/net/proxy
 golang.org/x/net/route
 golang.org/x/net/trace
-# golang.org/x/sync v0.11.0
+# golang.org/x/sync v0.10.0
 ## explicit; go 1.18
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.35.0
-## explicit; go 1.23.0
+# golang.org/x/sys v0.29.0
+## explicit; go 1.18
 golang.org/x/sys/cpu
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
@@ -909,10 +857,10 @@ golang.org/x/sys/windows
 golang.org/x/sys/windows/registry
 golang.org/x/sys/windows/svc
 golang.org/x/sys/windows/svc/mgr
-# golang.org/x/term v0.34.0
-## explicit; go 1.23.0
+# golang.org/x/term v0.28.0
+## explicit; go 1.18
 golang.org/x/term
-# golang.org/x/text v0.22.0
+# golang.org/x/text v0.21.0
 ## explicit; go 1.18
 golang.org/x/text/cases
 golang.org/x/text/encoding
@@ -935,12 +883,12 @@ golang.org/x/text/width
 # golang.org/x/time v0.5.0
 ## explicit; go 1.18
 golang.org/x/time/rate
-# golang.org/x/tools v0.30.0
-## explicit; go 1.22.0
+# golang.org/x/tools v0.21.1-0.20240508182429-e35e4ccd0d2d
+## explicit; go 1.19
 golang.org/x/tools/go/gcexportdata
+golang.org/x/tools/go/internal/packagesdriver
 golang.org/x/tools/go/packages
 golang.org/x/tools/go/types/objectpath
-golang.org/x/tools/go/types/typeutil
 golang.org/x/tools/internal/aliases
 golang.org/x/tools/internal/event
 golang.org/x/tools/internal/event/core
@@ -951,7 +899,7 @@ golang.org/x/tools/internal/gocommand
 golang.org/x/tools/internal/packagesinternal
 golang.org/x/tools/internal/pkgbits
 golang.org/x/tools/internal/stdlib
-golang.org/x/tools/internal/typeparams
+golang.org/x/tools/internal/tokeninternal
 golang.org/x/tools/internal/typesinternal
 golang.org/x/tools/internal/versions
 # golang.zx2c4.com/wintun v0.0.0-20230126152724-0fa3db229ce2
@@ -1125,8 +1073,8 @@ gopkg.in/jcmturner/rpc.v1/ndr
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
-# gorm.io/driver/mysql v1.6.0
-## explicit; go 1.18
+# gorm.io/driver/mysql v1.5.7
+## explicit; go 1.14
 gorm.io/driver/mysql
 # gorm.io/driver/postgres v1.5.9
 ## explicit; go 1.19
@@ -1134,13 +1082,11 @@ gorm.io/driver/postgres
 # gorm.io/driver/sqlite v1.5.5
 ## explicit; go 1.20
 gorm.io/driver/sqlite
-# gorm.io/gorm v1.30.0
+# gorm.io/gorm v1.25.10
 ## explicit; go 1.18
 gorm.io/gorm
 gorm.io/gorm/callbacks
 gorm.io/gorm/clause
-gorm.io/gorm/internal/lru
-gorm.io/gorm/internal/stmt_store
 gorm.io/gorm/logger
 gorm.io/gorm/migrator
 gorm.io/gorm/schema

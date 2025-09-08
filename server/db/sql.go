@@ -22,9 +22,9 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/bishopfox/sliver/server/configs"
-	"github.com/bishopfox/sliver/server/db/models"
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/wh1t3zer/sliver-server_new/server/configs"
+	"github.com/wh1t3zer/sliver-server_new/server/db/models"
+	"github.com/wh1t3zer/sliver-server_new/server/log"
 	"gorm.io/driver/mysql"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"

@@ -23,9 +23,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/server/assets"
-	"github.com/bishopfox/sliver/server/db"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/server/assets"
+	"github.com/wh1t3zer/sliver-server_new/server/db"
 )
 
 func getWebContentDir() (string, error) {

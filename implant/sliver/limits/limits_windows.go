@@ -26,8 +26,6 @@ import (
 	// {{else}}{{end}}
 	"os"
 	"syscall"
-
-	"unsafe"
 )
 
 // {{if .Config.LimitDomainJoined}}

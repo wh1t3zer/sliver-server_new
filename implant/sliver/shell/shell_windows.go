@@ -24,7 +24,7 @@ import (
 	// {{end}}
 
 	"context"
-	"github.com/bishopfox/sliver/implant/sliver/priv"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/priv"
 	"golang.org/x/sys/windows"
 	"os/exec"
 	"syscall"

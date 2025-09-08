@@ -23,7 +23,7 @@ import (
 	"crypto/rand"
 	"time"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
 )
 
 type TrafficEncoderTestFunc func(*TrafficEncoder) *clientpb.TrafficEncoderTest

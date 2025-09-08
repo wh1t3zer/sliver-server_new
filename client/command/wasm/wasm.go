@@ -25,12 +25,12 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/client/core"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/util"
-	"github.com/bishopfox/sliver/util/encoders"
+	"github.com/wh1t3zer/sliver-server_new/client/console"
+	"github.com/wh1t3zer/sliver-server_new/client/core"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
+	"github.com/wh1t3zer/sliver-server_new/util"
+	"github.com/wh1t3zer/sliver-server_new/util/encoders"
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/proto"
 )

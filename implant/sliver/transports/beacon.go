@@ -33,19 +33,19 @@ import (
 	// {{if .Config.IncludeMTLS}}
 	"crypto/tls"
 
-	"github.com/bishopfox/sliver/implant/sliver/transports/mtls"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports/mtls"
 
 	// {{end}}
 
 	// {{if .Config.IncludeHTTP}}
-	"github.com/bishopfox/sliver/implant/sliver/transports/httpclient"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports/httpclient"
 	// {{end}}
 
 	// {{if .Config.IncludeWG}}
 	"errors"
 	"net"
 
-	"github.com/bishopfox/sliver/implant/sliver/transports/wireguard"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports/wireguard"
 	"golang.zx2c4.com/wireguard/device"
 
 	// {{end}}
@@ -56,10 +56,10 @@ import (
 
 	// {{if .Config.IncludeDNS}}
 
-	"github.com/bishopfox/sliver/implant/sliver/transports/dnsclient"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports/dnsclient"
 	// {{end}}
 
-	pb "github.com/bishopfox/sliver/protobuf/sliverpb"
+	pb "github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
 )
 
 var (

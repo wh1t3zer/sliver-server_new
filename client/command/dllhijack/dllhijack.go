@@ -25,8 +25,8 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/client/console"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
 )
 
 // dllhijack --ref-path c:\windows\system32\msasn1.dll --file /tmp/runner.dll TARGET_PATH

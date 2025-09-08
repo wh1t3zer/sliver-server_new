@@ -32,9 +32,9 @@ import (
 	"log"
 	// {{end}}
 
-	consts "github.com/bishopfox/sliver/implant/sliver/constants"
-	"github.com/bishopfox/sliver/implant/sliver/cryptography"
-	pb "github.com/bishopfox/sliver/protobuf/sliverpb"
+	consts "github.com/wh1t3zer/sliver-server_new/implant/sliver/constants"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/cryptography"
+	pb "github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
 	"google.golang.org/protobuf/proto"
 )
 

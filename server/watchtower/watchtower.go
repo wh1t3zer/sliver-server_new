@@ -4,12 +4,12 @@ import (
 	"errors"
 	"fmt"
 
-	consts "github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/server/core"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/db/models"
-	"github.com/bishopfox/sliver/server/log"
+	consts "github.com/wh1t3zer/sliver-server_new/client/constants"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/server/core"
+	"github.com/wh1t3zer/sliver-server_new/server/db"
+	"github.com/wh1t3zer/sliver-server_new/server/db/models"
+	"github.com/wh1t3zer/sliver-server_new/server/log"
 	"github.com/lesnuages/snitch/pkg/snitch"
 )
 

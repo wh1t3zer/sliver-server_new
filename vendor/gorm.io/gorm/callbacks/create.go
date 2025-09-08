@@ -89,10 +89,6 @@ func Create(config *Config) func(db *gorm.DB) {
 					db.AddError(rows.Close())
 				}()
 				gorm.Scan(rows, db, mode)
-
-				if db.Statement.Result != nil {
-					db.Statement.Result.RowsAffected = db.RowsAffected
-				}
 			}
 
 			return
@@ -107,12 +103,6 @@ func Create(config *Config) func(db *gorm.DB) {
 		}
 
 		db.RowsAffected, _ = result.RowsAffected()
-
-		if db.Statement.Result != nil {
-			db.Statement.Result.Result = result
-			db.Statement.Result.RowsAffected = db.RowsAffected
-		}
-
 		if db.RowsAffected == 0 {
 			return
 		}

@@ -22,7 +22,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/wh1t3zer/sliver-server_new/server/log"
 	"golang.org/x/crypto/acme/autocert"
 )
 

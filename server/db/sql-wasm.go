@@ -21,8 +21,8 @@ package db
 */
 
 import (
-	"github.com/bishopfox/sliver/server/configs"
-	"github.com/bishopfox/sliver/server/db/wasmsqlite"
+	"github.com/wh1t3zer/sliver-server_new/server/configs"
+	"github.com/wh1t3zer/sliver-server_new/server/db/wasmsqlite"
 	_ "github.com/ncruces/go-sqlite3"
 	_ "github.com/ncruces/go-sqlite3/driver"
 	_ "github.com/ncruces/go-sqlite3/embed"

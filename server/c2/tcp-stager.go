@@ -22,7 +22,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/wh1t3zer/sliver-server_new/server/log"
 )
 
 var (

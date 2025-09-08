@@ -28,11 +28,11 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/term"
 
-	"github.com/bishopfox/sliver/client/command/kill"
-	"github.com/bishopfox/sliver/client/command/settings"
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
+	"github.com/wh1t3zer/sliver-server_new/client/command/kill"
+	"github.com/wh1t3zer/sliver-server_new/client/command/settings"
+	"github.com/wh1t3zer/sliver-server_new/client/console"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/commonpb"
 )
 
 // BeaconsCmd - Display/interact with beacons

@@ -36,7 +36,7 @@ import (
 	// {{end}}
 
 	// {{if .Config.TrafficEncodersEnabled}}
-	"github.com/bishopfox/sliver/implant/sliver/encoders/traffic"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/encoders/traffic"
 	// {{end}}
 )
 

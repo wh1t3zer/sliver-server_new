@@ -28,7 +28,7 @@ import (
 	"strings"
 	"text/template"
 
-	consts "github.com/bishopfox/sliver/client/constants"
+	consts "github.com/wh1t3zer/sliver-server_new/client/constants"
 )
 
 const (

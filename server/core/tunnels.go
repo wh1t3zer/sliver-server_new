@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bishopfox/sliver/protobuf/rpcpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/rpcpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
 	"google.golang.org/protobuf/proto"
 )
 

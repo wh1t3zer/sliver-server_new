@@ -19,9 +19,9 @@ package generate
 */
 
 import (
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/db/models"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/server/db"
+	"github.com/wh1t3zer/sliver-server_new/server/db/models"
 )
 
 // SliverExternal - Generates the cryptographic keys for the implant but compiles no code

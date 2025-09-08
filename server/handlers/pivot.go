@@ -40,11 +40,11 @@ package handlers
 import (
 	"fmt"
 
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/server/core"
-	"github.com/bishopfox/sliver/server/cryptography"
-	"github.com/bishopfox/sliver/server/db"
-	"github.com/bishopfox/sliver/server/log"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
+	"github.com/wh1t3zer/sliver-server_new/server/core"
+	"github.com/wh1t3zer/sliver-server_new/server/cryptography"
+	"github.com/wh1t3zer/sliver-server_new/server/db"
+	"github.com/wh1t3zer/sliver-server_new/server/log"
 	"github.com/gofrs/uuid"
 	"google.golang.org/protobuf/proto"
 )

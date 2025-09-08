@@ -32,9 +32,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/bishopfox/sliver/implant/sliver/tcpproxy"
-	"github.com/bishopfox/sliver/implant/sliver/transports"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/tcpproxy"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
 )
 
 var (

@@ -26,11 +26,11 @@ import (
 	// {{end}}
 	"time"
 
-	rportfwd "github.com/bishopfox/sliver/implant/sliver/rportfwd"
-	"github.com/bishopfox/sliver/implant/sliver/tcpproxy"
-	"github.com/bishopfox/sliver/implant/sliver/transports"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	pb "github.com/bishopfox/sliver/protobuf/sliverpb"
+	rportfwd "github.com/wh1t3zer/sliver-server_new/implant/sliver/rportfwd"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/tcpproxy"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/commonpb"
+	pb "github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
 	"google.golang.org/protobuf/proto"
 )
 

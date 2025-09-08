@@ -22,8 +22,8 @@ package help
 // 	"fmt"
 // 	"sort"
 //
-// 	"github.com/bishopfox/sliver/client/console"
-// 	consts "github.com/bishopfox/sliver/client/constants"
+// 	"github.com/wh1t3zer/sliver-server_new/client/console"
+// 	consts "github.com/wh1t3zer/sliver-server_new/client/constants"
 //
 // 	"github.com/desertbit/columnize"
 // 	"github.com/desertbit/grumble"

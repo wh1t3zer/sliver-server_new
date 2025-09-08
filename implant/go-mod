@@ -1,8 +1,8 @@
-module github.com/bishopfox/sliver
+module github.com/wh1t3zer/sliver-server_new
 
-go 1.21.1
+go 1.22.0
 
-toolchain go1.21.4
+toolchain go1.22.2
 
 require (
 	filippo.io/age v1.1.1

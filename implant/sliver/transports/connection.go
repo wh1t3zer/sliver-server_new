@@ -22,7 +22,7 @@ import (
 	"net/url"
 	"sync"
 
-	pb "github.com/bishopfox/sliver/protobuf/sliverpb"
+	pb "github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
 )
 
 type Connection struct {

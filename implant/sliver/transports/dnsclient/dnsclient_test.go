@@ -29,8 +29,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/bishopfox/sliver/protobuf/dnspb"
-	"github.com/bishopfox/sliver/util/encoders"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/dnspb"
+	"github.com/wh1t3zer/sliver-server_new/util/encoders"
 	"google.golang.org/protobuf/proto"
 )
 

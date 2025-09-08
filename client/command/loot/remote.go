@@ -31,11 +31,11 @@ import (
 	"github.com/spf13/cobra"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/bishopfox/sliver/client/console"
-	"github.com/bishopfox/sliver/protobuf/clientpb"
-	"github.com/bishopfox/sliver/protobuf/commonpb"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/util/encoders"
+	"github.com/wh1t3zer/sliver-server_new/client/console"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/commonpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
+	"github.com/wh1t3zer/sliver-server_new/util/encoders"
 )
 
 func ValidateLootFileType(lootFileTypeInput string, data []byte) clientpb.FileType {

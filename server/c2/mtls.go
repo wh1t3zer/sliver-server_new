@@ -28,12 +28,12 @@ import (
 	"io"
 	"net"
 
-	consts "github.com/bishopfox/sliver/client/constants"
-	"github.com/bishopfox/sliver/protobuf/sliverpb"
-	"github.com/bishopfox/sliver/server/certs"
-	"github.com/bishopfox/sliver/server/core"
-	serverHandlers "github.com/bishopfox/sliver/server/handlers"
-	"github.com/bishopfox/sliver/server/log"
+	consts "github.com/wh1t3zer/sliver-server_new/client/constants"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/sliverpb"
+	"github.com/wh1t3zer/sliver-server_new/server/certs"
+	"github.com/wh1t3zer/sliver-server_new/server/core"
+	serverHandlers "github.com/wh1t3zer/sliver-server_new/server/handlers"
+	"github.com/wh1t3zer/sliver-server_new/server/log"
 	"google.golang.org/protobuf/proto"
 )
 

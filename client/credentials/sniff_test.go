@@ -21,7 +21,7 @@ package credentials
 import (
 	"testing"
 
-	"github.com/bishopfox/sliver/protobuf/clientpb"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/clientpb"
 )
 
 func TestSniffHashType(t *testing.T) {

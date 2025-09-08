@@ -27,13 +27,13 @@ import (
 	"github.com/spf13/cobra"
 	"github.com/spf13/pflag"
 
-	"github.com/bishopfox/sliver/client/command"
-	"github.com/bishopfox/sliver/client/command/help"
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
-	clienttransport "github.com/bishopfox/sliver/client/transport"
-	"github.com/bishopfox/sliver/protobuf/rpcpb"
-	"github.com/bishopfox/sliver/server/transport"
+	"github.com/wh1t3zer/sliver-server_new/client/command"
+	"github.com/wh1t3zer/sliver-server_new/client/command/help"
+	"github.com/wh1t3zer/sliver-server_new/client/console"
+	consts "github.com/wh1t3zer/sliver-server_new/client/constants"
+	clienttransport "github.com/wh1t3zer/sliver-server_new/client/transport"
+	"github.com/wh1t3zer/sliver-server_new/protobuf/rpcpb"
+	"github.com/wh1t3zer/sliver-server_new/server/transport"
 	"google.golang.org/grpc"
 )
 

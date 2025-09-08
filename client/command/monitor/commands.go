@@ -3,8 +3,8 @@ package monitor
 import (
 	"github.com/spf13/cobra"
 
-	"github.com/bishopfox/sliver/client/console"
-	consts "github.com/bishopfox/sliver/client/constants"
+	"github.com/wh1t3zer/sliver-server_new/client/console"
+	consts "github.com/wh1t3zer/sliver-server_new/client/constants"
 )
 
 // Commands returns the “ command and its subcommands.

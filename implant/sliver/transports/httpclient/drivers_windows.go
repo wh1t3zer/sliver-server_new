@@ -24,7 +24,7 @@ import (
 	"log"
 	// {{end}}
 
-	"github.com/bishopfox/sliver/implant/sliver/transports/httpclient/drivers/win/wininet"
+	"github.com/wh1t3zer/sliver-server_new/implant/sliver/transports/httpclient/drivers/win/wininet"
 )
 
 var (
