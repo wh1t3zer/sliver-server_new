@@ -56,24 +56,4 @@ func PlatformLimits() {
 	if int32(ret) != 0 {
 		os.Exit(1)
 	}
-	getSystemInfo := kernel32.MustFindProc("GetSystemInfo")
-	var si struct {
-		ProcessorArchitecture     uint16
-		Reserved                  uint16
-		PageSize                  uint32
-		MinimumApplicationAddress uintptr
-		MaximumApplicationAddress uintptr
-		ActiveProcessorMask       uintptr
-		NumberOfProcessors        uint32
-		ProcessorType             uint32
-		AllocationGranularity     uint32
-		ProcessorLevel            uint16
-		ProcessorRevision         uint16
-	}
-	_, _, err := getSystemInfo.Call(uintptr(unsafe.Pointer(&si)))
-	if err != nil && err.Error() != "The operation completed successfully." {
-		log.Printf("[ERROR] GetSystemInfo failed: %v", err)
-		return
-	}
-	log.Printf("si is %v", si)
 }
