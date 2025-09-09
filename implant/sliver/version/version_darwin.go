@@ -1,4 +1,10 @@
+//go:build darwin
+
 package version
+
+import (
+	"syscall"
+)
 
 /*
 	Sliver Implant Framework
@@ -19,5 +25,15 @@ package version
 */
 
 func GetVersion() string {
+	if version, err := syscall.Sysctl("kern.osproductversion"); err == nil {
+		return "macOS " + version
+	}
+	if version, err := getKernelVersion(); err == nil {
+		return "Darwin " + version
+	}
 	return ""
+}
+
+func getKernelVersion() (string, error) {
+	return syscall.Sysctl("kern.version")
 }

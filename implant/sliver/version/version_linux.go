@@ -1,4 +1,4 @@
-//go:build amd64 || 386
+//go:build linux
 
 package version
 
